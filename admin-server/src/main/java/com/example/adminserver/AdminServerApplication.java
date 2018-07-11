@@ -48,7 +48,7 @@ public class AdminServerApplication {
                 .ignoringAntMatchers(
                         "/instances",
                         "/actuator/**"
-                );*/
+                );*///根据2.0.1官方示例，添加这段代码会一直在login页面登录不进去，但使用之前的示例disable()就可以,https://github.com/codecentric/spring-boot-admin/commits/master/spring-boot-admin-samples/spring-boot-admin-sample-eureka
             // @formatter:on
         }
     }
